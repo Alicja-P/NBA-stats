@@ -1,4 +1,5 @@
 # NBA-stats
+Author: Alicja Pietrzak
 ## A NBA data processing script created with Python
 Script processes data from external API about NBA related data and can give information about
 * teams grouped by their division
