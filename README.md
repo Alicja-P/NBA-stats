@@ -14,13 +14,13 @@ Project is created with:
 ## Examples of usage
 Script should be executed from a command line with specified inputs:
 
-* **teams grouped by their division  **
+* **teams grouped by their division**  
   python script.py grouped-teams
 
 * **the tallest and the heaviest player with a given name**  
   python script.py players-stats --name 'player name'
 
-* **won and lost games statistics for a given season (optionaly storing) ** 
+* **won and lost games statistics for a given season (optionaly storing)**  
   python script.py teams-stats --season 'year of 1979-current' --output 'file format' (optional)
 
   --output option is optional and if missing a default option is printing the results in the console (without saving results).  
