@@ -21,7 +21,7 @@ Script should be executed from a command line with specified inputs:
   python script.py players-stats --name 'player name'
 
 * **won and lost games statistics for a given season (optionaly storing)**  
-  python script.py teams-stats --season 'year of 1979-current' --output 'file format' (optional)
+  python script.py teams-stats --season 'year in the period from 1979 to now' --output 'file format' (optional)
 
   --output option is optional and if missing a default option is printing the results in the console (without saving results).  
   Possible --output parameters are:
