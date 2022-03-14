@@ -1,17 +1,17 @@
-## NBA-stats
-# A NBA data processing script created with Python
+# NBA-stats
+## A NBA data processing script created with Python
 Script processes data from external API about NBA related data and can give information about
 * teams grouped by their division
 * the tallest and the heaviest player with a given name
 * won and lost games statistics for a given season (optionaly storing)
 
-# Technologies
+## Technologies
 Project is created with:
 * Python 3.9.7
 * pandas 1.3.4
 * numpy 1.20.3
 
-# Examples of usage
+## Examples of usage
 Script should be executed from a command line with specified inputs:
 
 * teams grouped by their division
