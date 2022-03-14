@@ -34,13 +34,13 @@ class Data():
                 self.season = int(arg[2])
                 self.goal = "stdout"
             else:
-                raise ValueError("Try: teams-stats --season 'year of 1979-current' --output 'file format' (optional)")
+                raise ValueError("Try: teams-stats --season 'year in the period from 1979 to now' --output 'file format' (optional)")
 
             if num == 5 and arg[3] == "--output":
                 if arg[4] == "csv" or arg[4] == "json" or arg[4] == "sqlite" or arg[4] == "stdout":
                     self.goal = arg[4]
                 else:
-                    raise ValueError("Try: teams-stats --season 'year of 1979-current' --output 'file format' (optional)")
+                    raise ValueError("Try: teams-stats --season 'year in the period from 1979 to now' --output 'file format' (optional)")
 
         else:
             raise ValueError("Try again. Possible arguments: 'grouped-teams', 'players-stats' and 'teams-stats'")
